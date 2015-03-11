@@ -1,0 +1,175 @@
+body {
+  font-family: Merriweather;
+  font-size: 20px;
+  line-height: 32px;
+  color: #212121; }
+
+header::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #1DD3B0; }
+
+article {
+  width: 760px;
+  margin: 0 auto; }
+  article h1.title {
+    margin: 0 auto 30px auto;
+    padding: 70px 0;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase; }
+    article h1.title::after {
+      content: '';
+      width: 240px;
+      height: 1px;
+      background-color: #212121;
+      opacity: 0.4;
+      display: block;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+  article h1 {
+    margin: 0 auto;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    text-transform: uppercase; }
+  article h2 {
+    margin: 0 auto;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+  article h3 {
+    margin: 0 auto;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px; }
+  article p {
+    margin: 0 auto;
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px; }
+  article p.caption {
+    text-align: right;
+    width: 200px;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    position: absolute;
+    padding: 8px 990px 8px 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 6px; }
+    article p.caption::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 140px;
+      top: 0;
+      width: 60px;
+      height: 1px;
+      background-color: rgba(33, 33, 33, 0.4); }
+  article blockquote {
+    box-sizing: border-box;
+    width: 880px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: -60px;
+    margin-right: -60px;
+    font-style: italic;
+    position: relative; }
+    article blockquote::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 0;
+      top: 0;
+      border-left: solid 1px rgba(33, 33, 33, 0.4);
+      border-top: solid 1px rgba(33, 33, 33, 0.4); }
+    article blockquote::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      right: 0;
+      bottom: 0;
+      border-right: solid 1px rgba(33, 33, 33, 0.4);
+      border-bottom: solid 1px rgba(33, 33, 33, 0.4); }
+  article ul {
+    width: 760px;
+    margin: 0 auto;
+    padding-left: 30px;
+    box-sizing: border-box; }
+    article ul li {
+      margin-bottom: 20px; }
+  article ul.numbered li {
+    list-style: decimal; }
+  article ul.bullet li {
+    list-style: disc; }
+  article div.image.center {
+    width: 760px;
+    margin: 30px auto; }
+    article div.image.center img {
+      width: 100%;
+      display: block; }
+    article div.image.center p.caption {
+      margin-top: 0; }
+  article div.image.right {
+    width: 400px;
+    margin-right: -160px;
+    margin-left: 30px;
+    margin-top: 6px;
+    float: right;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    article div.image.right img {
+      width: 100%;
+      display: block;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1; }
+    article div.image.right p.caption {
+      width: 400px;
+      padding: 8px 0;
+      margin-left: 0;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 0;
+      position: relative;
+      text-align: left;
+      -webkit-order: 2;
+      -ms-flex-order: 2;
+      order: 2; }
+      article div.image.right p.caption::before {
+        left: 0; }
+
+/*# sourceMappingURL=theme.css.map */
